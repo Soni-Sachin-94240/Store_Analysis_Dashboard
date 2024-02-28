@@ -1,0 +1,10 @@
+-- Sales Details
+
+Create or replace view dbo."PBI_SalesDetails" as
+select 
+sd."SaleDetailID", sd."SaleID", sd."CreatedDate" ,
+sd."ItemID", sd."ItemCode", sd."ItemName", sd."ItemType", sd."ItemSaleType",
+sd."Quantity", sd."Price", sd."ActualPrice"
+From dbo."SaleDetails" as sd
+WHERE sd."CreatedDate" >= '2022-01-01 00:00:00'
+;

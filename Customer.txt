@@ -1,0 +1,18 @@
+-- Customer 
+
+Create view dbo."PBI_Customer" as
+select 
+cus."CustomerID",
+cus."CustomerFirstName", 
+cus."CustomerLastName",
+cus."DateOfBirth", 
+cus."Mobile", cus."EmailID", 
+cus."Status",
+cus."CountryID", con."CountryName", 
+cus."StateID", sta."StateName",
+cus."CustomerTypeID"
+ 
+from dbo."Customer" cus
+Inner join dbo."Country" con on (con."CountryID" = cus."CountryID")
+Inner Join dbo."State" sta on (sta."StateID" = cus."StateID")
+;

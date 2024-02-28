@@ -1,0 +1,29 @@
+-- Sales by Customer, Store, Comapany and Date 
+Create or Replace view dbo."PBI_Sales" as
+select DISTINCT
+-- s."SaleID", 
+s."CustomerID" , s."StoreID" , 
+-- s."CreatedBy" , s."CreatedDate",
+-- s."SaleType" , 
+-- s."DiscountType" , 
+-- s."Status",
+s."CompanyID",
+com."CompanyName" ,
+-- s."SaleInvoice", 
+-- s."SaleDate", 
+SUM(s."BalanceAmount") as BalanceAmount, 
+SUM(s."TotalTax") as TotalTax,
+SUM(s."GrossTotal")as GrossTotal, 
+SUM(s."Discount") as Discount , 
+SUM(s."DiscountTotal") as DiscountTotal, 
+SUM(s."DiscountValue") as DiscountValue,
+SUM(s."NetAmount") as NetAmount, 
+SUM(s."PaidAmount") as PaidAmount,
+DATE(s."SaleDate") AS "Sale_Date"
+FROM dbo."Sales" s
+JOIN dbo."Company" com ON com."CompanyID" = s."CompanyID"
+WHERE s."SaleDate" >= '2022-01-01 00:00:00'
+GROUP By s."CustomerID", s."StoreID",s."CompanyID", com."CompanyName",DATE(s."SaleDate")
+;
+
+

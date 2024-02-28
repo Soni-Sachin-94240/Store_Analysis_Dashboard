@@ -1,0 +1,14 @@
+-- SalesDimension by Customer, Store, Comapany and Date 
+Create or Replace view dbo."PBI_SalesDim" as
+select DISTINCT
+s."SaleID", 
+s."CustomerID" ,
+s."StoreID" , 
+s."CompanyID",
+com."CompanyName" ,
+DATE(s."SaleDate") AS "Sale_Date"
+FROM dbo."Sales" s
+JOIN dbo."Company" com ON com."CompanyID" = s."CompanyID"
+;
+
+

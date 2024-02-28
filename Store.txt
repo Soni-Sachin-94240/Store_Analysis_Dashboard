@@ -1,0 +1,7 @@
+-- Store
+
+Create view dbo."PBI_Store" as
+Select 
+st."StoreID" , st."StoreName" 
+from dbo."Store" st 
+;

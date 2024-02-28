@@ -1,0 +1,7 @@
+-- Employee
+
+Create or replace view dbo."PBI_Employee" as
+select distinct 
+e."EmployeeID", e."EmployeeCode",
+e."UserName"
+from dbo."Employee" e;
