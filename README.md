@@ -91,4 +91,49 @@ For this dashboard I have used PostgreSQL database
 
   ![Avg Sales per Customer](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/5952b300-3e9a-4e02-91b3-9c5ee549702d)
 
+- Step 8 : Create the necessary visuals and charts to represent valuable or important key insights:
 
+  (a) Total Sales by Fiscal Year (Selected) by Month : 
+
+  The line chart clearly shows that the selected fiscal year (FY) 2022-23 had the highest sales in consecutive November, December, and January, while experiencing the lowest sales in March, April, and May
+
+  ![1  Total Sales by Fiscal Year](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/64611bd6-94fc-4013-b891-37f204bc4ac6)
+
+
+  (b) Finace Detail by Company : 
+
+  The table visual includes the columns Company Name, Total Sales, Tax Amount, and Total Paid Amount
+
+  ![2  Finance Detail by Company](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/441fd23f-9e65-403c-ab04-c97d2ae8481b)
+
+
+  (c) Total Sales by States : 
+
+  The Pie Chart represents that 'Hampshire' is the state with the highest sales, accounting for approximately 54% of the overall sales
+
+  ![3  Total Sales by States](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/678a9995-41fa-41f0-bf50-c4099f3ad0a3)
+
+  (d) Total Sales by Company : 
+
+  The bar chart represents that 'Knights Pharmacy' is the company with the highest sales, accounting for approximately 7.4 million.
+
+  ![4  Total Sales by Company](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/63c1cd3d-9b7f-4828-a398-03e194a13a22)
+
+
+  (e) Total Sales by Stores : 
+
+  The bar chart represents that 'Bristo Square' is the Store with the highest sales, accounting for approximately 0.40 million
+
+  ![5  Total Sales by Store](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/9b9954d5-de28-4b30-8ee2-73b5ce770eb1)
+
+
+  (f) Total Sales by Customer : 
+
+  The bar chart represents that most customer details are not captured, which is why there is a blank customer with the highest sales, accounting for approximately 26 million
+
+  ![6  Total Sales by Customer](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/bfe477e1-0a63-4dc2-9172-53ea6ad78271)
+
+
+### conclusion 
+
+In conclusion, the Store Analysis dashboard reveals valuable insights into the performance and trends within our store operations. Key takeaways include the identification of top-performing Company and Stores, notable sales patterns across different time periods, and a focus on high-performing regions or states. Additionally, the analysis points out areas for improvement, such as the need for better customer detail capture to enhance our understanding of sales distribution. These findings will inform strategic decisions to optimize sales, improve customer engagement, and ensure continued success in our retail operations.
