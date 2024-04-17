@@ -134,6 +134,6 @@ For this dashboard I have used PostgreSQL database
   ![6  Total Sales by Customer](https://github.com/Soni-Sachin-94240/Store_Analysis_Dashboard/assets/132342151/bfe477e1-0a63-4dc2-9172-53ea6ad78271)
 
 
-### conclusion 
+### Conclusion 
 
 In conclusion, the Store Analysis dashboard reveals valuable insights into the performance and trends within our store operations. Key takeaways include the identification of top-performing Company and Stores, notable sales patterns across different time periods, and a focus on high-performing regions or states. Additionally, the analysis points out areas for improvement, such as the need for better customer detail capture to enhance our understanding of sales distribution. These findings will inform strategic decisions to optimize sales, improve customer engagement, and ensure continued success in our retail operations.
